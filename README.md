@@ -12,8 +12,8 @@ RNA-seq and small RNA-seq data analised in this work can be found here: [GSE1138
 
 * [translate3frames.py](/translate3frames.py): Script to translate sequences in the 3 possible frames.
 
-`translate3frames.py [dna_sequences.fa]`
+`translate3frames.py [dna_sequences.fa] [output.fa]`
 
-* [classification_lncrnas.py](/classification_lncrnas.py): Classify lncRNAs by location to nearest gene.
+* [classification_lncrnas.py](/classification_lncrnas.py): Classify lncRNAs by location to nearest gene. The [pybedtools](https://github.com/daler/pybedtools) suite is necessary.
 
 `classification_lncrnas.py [lncrna_list.txt] [gffcompare.gtf] [ensembl.gtf] [outdir]`
