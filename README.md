@@ -18,6 +18,8 @@ RNA-seq and small RNA-seq data analised in this work can be found here: [GSE1138
 
 `classification_lncrnas.py [lncrna_list.txt] [gffcompare.gtf] [ensembl.gtf] [outdir]`
 
-* [synteny_noncode.py](/synteny_noncode.py): Test for syntenic conservation of novel sheep lncRNAs and NONCODE cow lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
+* [synteny_noncode.py](/synteny_noncode.py): Code for syntenic conservation analysis of novel sheep lncRNAs and NONCODE cow lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
 
-* [synteny_ens.py](/synteny_ens.py): Test for syntenic conservation of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
+* [synteny_ens.py](/synteny_ens.py): Code for syntenic conservation  analysis of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
+
+* [closegenes_isoforms_pbmc.py](/closegenes_isoforms_pbmc.py): Code to perform correlations between lncRNAs and close genes.
