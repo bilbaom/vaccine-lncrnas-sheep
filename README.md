@@ -1,7 +1,7 @@
-# Sheep lncRNAs related to the immune response to vaccines
-This repository contains the custom scripts used in the manuscript: **Identification of sheep lncRNAs related to the immune response to vaccines and aluminium adjuvants.**
+# Sheep lncRNAs vaccination
+This repository contains the custom scripts used in the manuscript: **[under review]**
 
-Note that the scripts are not well optimized and may be slow.
+Note that the scripts are not optimized and may be slow.
 
 RNA-seq and small RNA-seq data analised in this work can be found here: [GSE113899](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113899)
 
@@ -18,8 +18,8 @@ RNA-seq and small RNA-seq data analised in this work can be found here: [GSE1138
 
 `classification_lncrnas.py [lncrna_list.txt] [gffcompare.gtf] [ensembl.gtf] [outdir]`
 
-* [synteny_noncode.py](/synteny_noncode.py): Code for syntenic conservation analysis of novel sheep lncRNAs and NONCODE cow lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
+* [synteny_noncode.py](/synteny_noncode.py): Code used for syntenic conservation analysis of novel sheep lncRNAs and NONCODE cow lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
 
-* [synteny_ens.py](/synteny_ens.py): Code for syntenic conservation  analysis of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
+* [synteny_ens.py](/synteny_ens.py): Code used for syntenic conservation  analysis of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
 
-* [closegenes_isoforms_pbmc.py](/closegenes_isoforms_pbmc.py): Code to perform correlations between lncRNAs and close genes.
+* [closegenes_isoforms_pbmc.py](/closegenes_isoforms_pbmc.py): Code used to perform correlations between lncRNAs and close genes.
