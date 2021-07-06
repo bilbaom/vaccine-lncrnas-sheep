@@ -18,6 +18,8 @@ RNA-seq and small RNA-seq data analised in this work can be found here: [GSE1138
 
 `classification_lncrnas.py [lncrna_list.txt] [gffcompare.gtf] [ensembl.gtf] [outdir]`
 
+* [ens_blast.py](/ens_blast.py): Code used for sequence conservation  analysis of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython)  and standalone NCBI Blast are necessary.
+
 * [synteny_noncode.py](/synteny_noncode.py): Code used for syntenic conservation analysis of novel sheep lncRNAs and NONCODE cow lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
 
 * [synteny_ens.py](/synteny_ens.py): Code used for syntenic conservation  analysis of novel sheep lncRNAs and Ensembl lncRNAs. [Biopython](https://github.com/biopython/biopython) is necessary.
