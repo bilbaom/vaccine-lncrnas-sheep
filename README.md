@@ -1,5 +1,7 @@
 # Sheep lncRNAs vaccination
-This repository contains the custom scripts used in the manuscript: "Identification of sheep lncRNAs related to the immune response to vaccines and aluminium adjuvants" DOI: https://doi.org/10.1186/s12864-021-08086-z
+This repository contains the custom scripts used in the following manuscript:
+
+"Identification of sheep lncRNAs related to the immune response to vaccines and aluminium adjuvants. BMC Genomics 22, 770 (2021). https://doi.org/10.1186/s12864-021-08086-z "
 
 Note that the scripts are not optimized and may be slow.
 
